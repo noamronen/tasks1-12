@@ -46,7 +46,7 @@ template<typename T>
 void bsnode<T>::insert(bsnode<T>* newNode)
 {
 	bsnode<T>* ptr=this;
-	while (true)
+	while (ptr)
 	{
 		if (ptr.isLeaf())
 		{
